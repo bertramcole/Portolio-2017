@@ -1947,9 +1947,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 #services .services-list .service-item {
   margin-bottom: 3rem;
-  padding: 0 50px;
+  padding: 0 20px;
 }
 #services .services-list .service-item p {
+    font-size: 11.5px;
+    letter-spacing: 2px;
   color: rgba(242, 242, 242, 0.5);
 }
 #services .services-list .icon {
@@ -1967,18 +1969,25 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   margin-bottom: 3rem;
 }
 
+#services .services-list .h06 {
+  font-size: 1.7rem;
+  line-height: 1.765;
+  color: grey;
+  margin-bottom: 3rem;
+}
+
 /* ------------------------------------------------------------------- 
  * responsive:
  * services
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1024px) {
   #services .services-list .service-item {
-    padding: 0 40px;
+    padding: 0 20px;
   }
 }
 @media only screen and (max-width: 900px) {
   #services .services-list .service-item {
-    padding: 0 30px;
+    padding: 0 15px;
   }
 }
 @media only screen and (max-width: 768px) {
@@ -1989,7 +1998,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     max-width: 550px;
   }
   #services .services-list .service-item {
-    padding: 0 15px;
+    padding: 0 10px;
   }
   #services .services-list .icon i {
     font-size: 5.1rem;
@@ -2233,7 +2242,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   font-size: 1.3rem;
   line-height: 2.4rem;
   margin: .6rem 0 0;
-  color: rgba(255, 255, 255, 0.6);
+  color: rgba(255, 255, 255, 0.9);
 }
 
 .lg-outer .lg-thumb-item.active, .lg-outer .lg-thumb-item:hover {
