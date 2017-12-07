@@ -1673,6 +1673,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 @media only screen and (max-width: 1200px) {
   .home-content-tablecell h3 {
+       
     font-size: 2.1rem;
   }
   .home-content-tablecell h1 {
@@ -1698,6 +1699,9 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     
 }
 @media only screen and (max-width: 768px) {
+    #home {
+    max-width: 100%;
+    }
   .home-content-tablecell .row {
     max-width: 600px;
   }
@@ -1727,8 +1731,11 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 @media only screen and (max-width: 600px) {
-  #home {
+  #home { 
+    background-image: url("../images/bg.jpg");    
+    background-size: contain;
     min-height: 702px;
+    
   }
 
   .home-content-tablecell .row {
@@ -2641,7 +2648,8 @@ footer h4.h05::after {
   padding: 1.5rem 8rem 1.5rem 2rem;
   margin-bottom: 1.5rem;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: white;
+  border-radius: 4px;
 }
 .footer-main #mc-form button {
   background-color: #f9a828;
