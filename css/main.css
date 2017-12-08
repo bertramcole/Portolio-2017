@@ -1707,6 +1707,13 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     #home {
     max-width: 100%;
     }
+    
+    #home .bg img{ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    image-rendering: auto;
+}
   .home-content-tablecell .row {
     max-width: 600px;
   }
@@ -1736,13 +1743,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   }
 }
 @media only screen and (max-width: 600px) {
-  #home { 
-    background-image: url("../images/bg.jpg");    
-    background-size: contain;
-    min-height: 702px;
-    
-  }
-
+  
   .home-content-tablecell .row {
     max-width: 480px;
     padding-top: 12rem;
@@ -1780,6 +1781,12 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #home {
     min-height: 654px;
   }
+        #home .bg img{ 
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    image-rendering: auto;
+}
 
   .home-content-tablecell .row {
     padding-top: 4.8rem;
@@ -1909,7 +1916,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #services {
   background-color: #19191b;
-  background-image: url(../images/services-bg.jpg);
+  background-image: url(https://i0.wp.com/thehappyphilosopher.com/wp-content/uploads/2015/12/texture-1088149.jpg);
   background-repeat: no-repeat;
   background-position: center;
   -webkit-background-size: cover;
@@ -1926,7 +1933,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(5, 5, 5, 0.7);
+  background-color: rgba(5, 5, 5, 0.75);
 }
 #services .gradient-overlay {
   position: absolute;
@@ -2006,6 +2013,8 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
   #services {
     padding: 12rem 0 12rem;
   }
+    
+    
   #services .services-content {
     max-width: 550px;
   }
